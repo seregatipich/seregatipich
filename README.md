@@ -38,7 +38,7 @@ Here are some ideas to get you started:
 
 - :speedboat: I am a Backend Developer from Barcelona. 
 
-- 🔭 Exploring website development.
+- 🔭 Exploring NoSQl RDBMSs and pySpark.
 
 - ⚡ Fun fact: I speak 3 languages: English, Spanish and Russian.
 
