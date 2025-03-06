@@ -3,6 +3,8 @@
 <!--
 **seregatipich/seregatipich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -36,7 +38,9 @@ Here are some ideas to get you started:
   <img src="https://media1.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" width="400" height="250"/>
 </div>
 
-- :speedboat: I am a Backend Developer from Barcelona. 
+- :speedboat: I am a Backend Developer from Barcelona.
+
+- Я сегодня одинокий, скиньте ножки
 
 - 🔭 Exploring NoSQL and pySpark.
 
