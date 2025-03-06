@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center">
-  Hello there
+  Hello there (Я сегодня одинокий, скиньте ножки)
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 <div id="header" align="center">
@@ -39,8 +39,6 @@ Here are some ideas to get you started:
 </div>
 
 - :speedboat: I am a Backend Developer from Barcelona.
-
-- Я сегодня одинокий, скиньте ножки
 
 - 🔭 Exploring NoSQL and pySpark.
 
