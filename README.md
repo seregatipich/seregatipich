@@ -54,7 +54,7 @@ solvers in C, an HTTP server on raw sockets, and small Python libraries.
 ### 🚀 What I'm Up To
 
 - 🤖 At work: LLM and RAG systems in production — retrieval pipelines, embedding search, prompt A/B testing, and text-classification services running as containerized microservices.
-- 🧪 Experimenting with **agentic harnesses**: a knowledge base that drives six coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot, Windsurf) to operate a Linux host from one source of truth. A single canon generates each agent's native config, an MCP server answers live queries, and golden + adversarial evals with headless benchmarks track retrieval accuracy and drift against the real host.
+- 🧪 Experimenting with **agentic harnesses**: a knowledge base that drives multiple coding agents to operate a Linux host from one source of truth. A single canon generates each agent's native config, an MCP server answers live queries, and golden + adversarial evals with headless benchmarks track retrieval accuracy and drift against the real host.
 - 🧮 [**MatrixCore**](https://github.com/seregatipich/MatrixCore): 50 solvers for `Ax = b`, written in C with a typed Cython/NumPy wrapper that recommends an algorithm from the matrix's properties.
 - 🌐 [**http-server-python**](https://github.com/seregatipich/http-server-python): a threaded HTTP/1.1 server on raw sockets, with TLS 1.3, gzip, JWT auth, rate limiting, and graceful shutdown.
 - 🔎 [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr): a small OCR library on PyPI for pulling text out of images and PDFs.
