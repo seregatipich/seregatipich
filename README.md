@@ -3,6 +3,8 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 
+<h3 align="center">Machine Learning Engineer · numerical computing & ML systems · Barcelona 🇪🇸</h3>
+
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
@@ -29,34 +31,46 @@
 ### About Me
 
 ```python
-class Sergei:
+class MLEngineer:
     def __init__(self):
-        self.role        = "Backend Developer"
-        self.location    = "Barcelona, Spain 🇪🇸"
-        self.languages   = ["English", "Spanish", "Russian"]
-        self.code        = ["Python", "SQL", "Bash"]
-        self.exploring   = ["NoSQL", "PySpark", "Distributed Systems"]
-        self.hobbies     = ["🎾 Tennis", "🌊 Jet Ski"]
+        self.name       = "Sergei Poluektov"
+        self.role       = "Machine Learning Engineer"
+        self.location   = "Barcelona, Spain 🇪🇸"
+        self.languages  = ["English", "Spanish", "Russian"]
+        self.code       = ["Python", "C", "Cython", "SQL", "Bash"]
+        self.focus      = ["ML systems", "numerical computing", "MLOps"]
+        self.exploring  = ["LLMs", "high-performance inference", "distributed training"]
+        self.hobbies    = ["🎾 Tennis", "🌊 Jet Ski"]
 
-    def say_hi(self):
-        print("Thanks for dropping by — let's build something cool!")
+    def ship(self):
+        while True:
+            train(); evaluate(); deploy(); iterate()
 
-me = Sergei()
-me.say_hi()
+me = MLEngineer()
+me.ship()
 ```
+
+I build the layer between models and production — the numerics, the serving, and the
+tooling that turns a notebook experiment into something reliable. I like going all the
+way down: hand-writing linear-algebra solvers in C, wiring HTTP servers from raw sockets,
+and shipping small libraries that do one thing well.
 
 ---
 
 ### 🚀 What I'm Up To
 
-- 🛠️ Building a [**threaded HTTP/1.1 server in pure Python**](https://github.com/seregatipich/http-server-python) — TLS termination, gzip negotiation, graceful shutdown, rate limiting, the works.
-- 🤝 Open to collaborating on backend, distributed systems, and developer tooling projects.
+- 🧮 Built [**MatrixCore**](https://github.com/seregatipich/MatrixCore) — **50 dense linear-system solvers written from scratch in C**, exposed through a typed Cython/NumPy interface with automatic solver recommendation. The math that lives under every ML model, implemented from first principles.
+- 🌐 Built [**http-server-python**](https://github.com/seregatipich/http-server-python) — a threaded HTTP/1.1 server from the socket up: TLS 1.3 termination, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown for zero-downtime deploys.
+- 🔎 Published [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr) on PyPI — a batteries-included OCR library for extracting text from images and PDFs with image-enhancement preprocessing.
+- 📐 Maintaining [**area_calculator**](https://github.com/seregatipich/area_calculator) — a numerical-methods library featuring adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends.
+- 🤝 Open to collaborating on **ML infrastructure, numerical computing, and developer-tooling** projects.
 
 ---
 
 ### 📊 My Stats
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=seregatipich&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="180em" alt="GitHub Stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=seregatipich&theme=tokyonight&hide_border=true" height="180em" alt="GitHub Streak"/>
 </div>
 
@@ -72,32 +86,64 @@ me.say_hi()
 
 ### 🛠️ Languages & Tools
 
+**ML & Data**
+
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="Django" alt="Django" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" title="NumPy" alt="NumPy" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="pandas" alt="pandas" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/pytorch/pytorch-original.svg" title="PyTorch" alt="PyTorch" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/scikitlearn/scikitlearn-original.svg" title="scikit-learn" alt="scikit-learn" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" title="OpenCV" alt="OpenCV" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter" alt="Jupyter" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/apachespark/apachespark-original-wordmark.svg" title="Apache Spark" alt="Spark" width="40" height="40"/>
+</div>
+
+**Systems & Backend**
+
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="Django" alt="Django" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Bash" alt="Bash" width="40" height="40"/>
+</div>
+
+**Data Stores & Infra**
+
+<div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original-wordmark.svg" title="Redis" alt="Redis" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/apachespark/apachespark-original-wordmark.svg" title="Apache Spark" alt="Spark" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>
 </div>
 
 ---
 
-### 📌 Featured Project
+### 📌 Featured Projects
 
 <div align="center">
+  <a href="https://github.com/seregatipich/MatrixCore">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=MatrixCore&theme=tokyonight&hide_border=true" alt="MatrixCore"/>
+  </a>
   <a href="https://github.com/seregatipich/http-server-python">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=http-server-python&theme=tokyonight&hide_border=true" alt="HTTP Server"/>
   </a>
 </div>
 
-> A dependency-light, threaded HTTP/1.1 server written from the socket up. Supports TLS 1.3, gzip negotiation, chunked transfers, sandboxed file IO, structured logging, token-bucket rate limiting, and graceful shutdown for zero-downtime deployments.
+<div align="center">
+  <a href="https://github.com/seregatipich/one-two-ocr">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=one-two-ocr&theme=tokyonight&hide_border=true" alt="One Two OCR"/>
+  </a>
+  <a href="https://github.com/seregatipich/area_calculator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=area_calculator&theme=tokyonight&hide_border=true" alt="Area Calculator"/>
+  </a>
+</div>
+
+> **MatrixCore** — 50 selectable algorithms for solving `Ax = b`, with a pure-C numerical core (only `libm`), a typed Cython/NumPy interface, and automatic solver recommendation from matrix diagnostics. Tested against NumPy ground truth with pytest + Hypothesis.
 
 ---
 
