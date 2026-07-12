@@ -122,25 +122,12 @@ and shipping small libraries that do one thing well.
 
 ### 📌 Featured Projects
 
-<div align="center">
-  <a href="https://github.com/seregatipich/MatrixCore">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=MatrixCore&theme=tokyonight&hide_border=true" alt="MatrixCore"/>
-  </a>
-  <a href="https://github.com/seregatipich/http-server-python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=http-server-python&theme=tokyonight&hide_border=true" alt="HTTP Server"/>
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/seregatipich/one-two-ocr">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=one-two-ocr&theme=tokyonight&hide_border=true" alt="One Two OCR"/>
-  </a>
-  <a href="https://github.com/seregatipich/area_calculator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=seregatipich&repo=area_calculator&theme=tokyonight&hide_border=true" alt="Area Calculator"/>
-  </a>
-</div>
-
-> **MatrixCore** — 50 selectable algorithms for solving `Ax = b`, with a pure-C numerical core (only `libm`), a typed Cython/NumPy interface, and automatic solver recommendation from matrix diagnostics. Tested against NumPy ground truth with pytest + Hypothesis.
+| Project | Stack | What it does |
+| --- | --- | --- |
+| **[MatrixCore](https://github.com/seregatipich/MatrixCore)** <br> <img src="https://img.shields.io/github/stars/seregatipich/MatrixCore?style=flat-square&color=1f6feb" alt="stars"/> | ![C](https://img.shields.io/badge/-C-555?style=flat-square&logo=c) ![Cython](https://img.shields.io/badge/-Cython-333?style=flat-square) ![NumPy](https://img.shields.io/badge/-NumPy-4d77cf?style=flat-square&logo=numpy&logoColor=white) | 50 algorithms for solving `Ax = b`, with a pure-C core (only `libm`), a typed Cython/NumPy interface, and automatic solver recommendation. Tested against NumPy with pytest + Hypothesis. |
+| **[http-server-python](https://github.com/seregatipich/http-server-python)** <br> <img src="https://img.shields.io/github/stars/seregatipich/http-server-python?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) | Threaded HTTP/1.1 server built on raw sockets: TLS 1.3, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown. |
+| **[one-two-ocr](https://github.com/seregatipich/one-two-ocr)** <br> <img src="https://img.shields.io/github/stars/seregatipich/one-two-ocr?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) ![PyPI](https://img.shields.io/pypi/v/one-two-ocr?style=flat-square&color=3775a9&logo=pypi&logoColor=white) | PyPI OCR toolkit that extracts text from images and PDFs, with image-enhancement preprocessing built in. |
+| **[area_calculator](https://github.com/seregatipich/area_calculator)** <br> <img src="https://img.shields.io/github/stars/seregatipich/area_calculator?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) | Numerical-methods library: adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends. |
 
 ---
 
