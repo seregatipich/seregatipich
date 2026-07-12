@@ -58,6 +58,7 @@ solvers in C, an HTTP server on raw sockets, and small Python libraries.
 - 🌐 [**http-server-python**](https://github.com/seregatipich/http-server-python): a threaded HTTP/1.1 server on raw sockets, with TLS 1.3, gzip, JWT auth, rate limiting, and graceful shutdown.
 - 🔎 [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr): a small OCR library on PyPI for pulling text out of images and PDFs.
 - 📐 [**area_calculator**](https://github.com/seregatipich/area_calculator): numerical methods for area — adaptive integration, Monte Carlo, Green's theorem, and exact symbolic backends.
+- 🎮 On the side I work on **Breaking Squad**, community infrastructure for Squad game servers: a TypeScript admin panel with RCON control, a FastAPI backend for player VIP and balances, Discord stat bots, and auto-seeding.
 - 🤝 Open to ML infrastructure, numerical computing, and tooling projects.
 
 ---
