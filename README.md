@@ -36,7 +36,7 @@ class MLEngineer:
         self.name       = "Sergei Poluektov"
         self.role       = "Machine Learning Engineer"
         self.location   = "Barcelona, Spain 🇪🇸"
-        self.languages  = ["English", "Spanish", "Russian"]
+        self.languages  = ["English", "Spanish", "Catalan", "Russian"]
         self.code       = ["Python", "C", "Cython", "SQL", "Bash"]
         self.focus      = ["ML systems", "numerical computing", "MLOps"]
         self.exploring  = ["LLMs", "high-performance inference", "distributed training"]
