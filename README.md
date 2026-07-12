@@ -38,8 +38,8 @@ class MLEngineer:
         self.location   = "Barcelona, Spain 🇪🇸"
         self.languages  = ["English", "Spanish", "Catalan", "Russian"]
         self.code       = ["Python", "C", "Cython", "SQL", "Bash"]
-        self.focus      = ["ML systems", "numerical computing", "MLOps"]
-        self.exploring  = ["LLMs", "high-performance inference", "distributed training"]
+        self.focus      = ["LLM & RAG systems", "ML in production", "MLOps"]
+        self.exploring  = ["agentic workflows", "retrieval & embeddings", "high-performance inference"]
         self.hobbies    = ["🎾 Tennis", "🌊 Jet Ski"]
 
     def ship(self):
@@ -50,15 +50,18 @@ me = MLEngineer()
 me.ship()
 ```
 
-I build the layer between models and production — the numerics, the serving, and the
-tooling that turns a notebook experiment into something reliable. I like going all the
-way down: hand-writing linear-algebra solvers in C, wiring HTTP servers from raw sockets,
-and shipping small libraries that do one thing well.
+Day-to-day I ship **production LLM & RAG systems** — retrieval pipelines over vector
+stores and embeddings, prompt engineering with A/B evaluation, and ML-driven
+classification services deployed as hardened, containerized microservices. I like the
+whole span of it: from the numerics under the models to the serving layer that turns a
+notebook experiment into something reliable — hand-writing linear-algebra solvers in C,
+wiring HTTP servers from raw sockets, and shipping small libraries that do one thing well.
 
 ---
 
 ### 🚀 What I'm Up To
 
+- 🤖 Building **production LLM & RAG systems** at work — retrieval-augmented pipelines, vector/embedding search, prompt engineering with A/B evaluation, and content-classification services shipped as containerized microservices.
 - 🧮 Created [**MatrixCore**](https://github.com/seregatipich/MatrixCore) — **50 dense linear-system solvers hand-written in C**, wrapped in a typed Cython/NumPy API that picks the right algorithm for you. The linear algebra every ML model quietly relies on, rebuilt from the ground up.
 - 🌐 Wrote [**http-server-python**](https://github.com/seregatipich/http-server-python) — a threaded HTTP/1.1 server built straight on top of sockets, with TLS 1.3 termination, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown for zero-downtime rollouts.
 - 🔎 Shipped [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr) to PyPI — an easy-to-use OCR toolkit that pulls text out of images and PDFs, with image-enhancement preprocessing built in.
