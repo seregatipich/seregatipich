@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 
-<h3 align="center">Machine Learning Engineer · numerical computing & ML systems · Barcelona 🇪🇸</h3>
+<h3 align="center">Machine Learning Engineer, based in Barcelona 🇪🇸</h3>
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
@@ -38,35 +38,27 @@ class MLEngineer:
         self.location   = "Barcelona, Spain 🇪🇸"
         self.languages  = ["English", "Spanish", "Catalan", "Russian"]
         self.code       = ["Python", "C", "Cython", "SQL", "Bash"]
-        self.focus      = ["LLM & RAG systems", "ML in production", "MLOps"]
-        self.exploring  = ["agentic workflows", "retrieval & embeddings", "high-performance inference"]
-        self.hobbies    = ["🎾 Tennis", "🌊 Jet Ski"]
-
-    def ship(self):
-        while True:
-            train(); evaluate(); deploy(); iterate()
+        self.work_on    = ["LLM & RAG systems", "ML in production", "MLOps"]
+        self.hobbies    = ["Tennis", "Jet Ski"]
 
 me = MLEngineer()
-me.ship()
 ```
 
-Day-to-day I ship **production LLM & RAG systems** — retrieval pipelines over vector
-stores and embeddings, prompt engineering with A/B evaluation, and ML-driven
-classification services deployed as hardened, containerized microservices. I like the
-whole span of it: from the numerics under the models to the serving layer that turns a
-notebook experiment into something reliable — hand-writing linear-algebra solvers in C,
-wiring HTTP servers from raw sockets, and shipping small libraries that do one thing well.
+At work I build **LLM and RAG systems** that run in production: retrieval over vector
+stores, prompt engineering with A/B testing, and text-classification services deployed as
+containerized microservices. On my own time I go lower-level, writing linear-algebra
+solvers in C, an HTTP server on raw sockets, and small Python libraries.
 
 ---
 
 ### 🚀 What I'm Up To
 
-- 🤖 Building **production LLM & RAG systems** at work — retrieval-augmented pipelines, vector/embedding search, prompt engineering with A/B evaluation, and content-classification services shipped as containerized microservices.
-- 🧮 Created [**MatrixCore**](https://github.com/seregatipich/MatrixCore) — **50 dense linear-system solvers hand-written in C**, wrapped in a typed Cython/NumPy API that picks the right algorithm for you. The linear algebra every ML model quietly relies on, rebuilt from the ground up.
-- 🌐 Wrote [**http-server-python**](https://github.com/seregatipich/http-server-python) — a threaded HTTP/1.1 server built straight on top of sockets, with TLS 1.3 termination, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown for zero-downtime rollouts.
-- 🔎 Shipped [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr) to PyPI — an easy-to-use OCR toolkit that pulls text out of images and PDFs, with image-enhancement preprocessing built in.
-- 📐 Maintaining [**area_calculator**](https://github.com/seregatipich/area_calculator) — a numerical-methods library covering adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends.
-- 🤝 Happy to team up on **ML infrastructure, numerical computing, and developer-tooling** projects.
+- 🤖 At work: LLM and RAG systems in production — retrieval pipelines, embedding search, prompt A/B testing, and text-classification services running as containerized microservices.
+- 🧮 [**MatrixCore**](https://github.com/seregatipich/MatrixCore): 50 solvers for `Ax = b`, written in C with a typed Cython/NumPy wrapper that recommends an algorithm from the matrix's properties.
+- 🌐 [**http-server-python**](https://github.com/seregatipich/http-server-python): a threaded HTTP/1.1 server on raw sockets, with TLS 1.3, gzip, JWT auth, rate limiting, and graceful shutdown.
+- 🔎 [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr): a small OCR library on PyPI for pulling text out of images and PDFs.
+- 📐 [**area_calculator**](https://github.com/seregatipich/area_calculator): numerical methods for area — adaptive integration, Monte Carlo, Green's theorem, and exact symbolic backends.
+- 🤝 Open to ML infrastructure, numerical computing, and tooling projects.
 
 ---
 
@@ -127,10 +119,10 @@ wiring HTTP servers from raw sockets, and shipping small libraries that do one t
 
 | Project | Stack | What it does |
 | --- | --- | --- |
-| **[MatrixCore](https://github.com/seregatipich/MatrixCore)** <br> <img src="https://img.shields.io/github/stars/seregatipich/MatrixCore?style=flat-square&color=1f6feb" alt="stars"/> | ![C](https://img.shields.io/badge/-C-555?style=flat-square&logo=c) ![Cython](https://img.shields.io/badge/-Cython-333?style=flat-square) ![NumPy](https://img.shields.io/badge/-NumPy-4d77cf?style=flat-square&logo=numpy&logoColor=white) | 50 algorithms for solving `Ax = b`, with a pure-C core (only `libm`), a typed Cython/NumPy interface, and automatic solver recommendation. Tested against NumPy with pytest + Hypothesis. |
+| **[MatrixCore](https://github.com/seregatipich/MatrixCore)** <br> <img src="https://img.shields.io/github/stars/seregatipich/MatrixCore?style=flat-square&color=1f6feb" alt="stars"/> | ![C](https://img.shields.io/badge/-C-555?style=flat-square&logo=c) ![Cython](https://img.shields.io/badge/-Cython-333?style=flat-square) ![NumPy](https://img.shields.io/badge/-NumPy-4d77cf?style=flat-square&logo=numpy&logoColor=white) | 50 algorithms for solving `Ax = b`. Pure-C core (only `libm`), typed Cython/NumPy interface, automatic solver recommendation. Tested against NumPy with pytest + Hypothesis. |
 | **[http-server-python](https://github.com/seregatipich/http-server-python)** <br> <img src="https://img.shields.io/github/stars/seregatipich/http-server-python?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) | Threaded HTTP/1.1 server built on raw sockets: TLS 1.3, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown. |
-| **[one-two-ocr](https://github.com/seregatipich/one-two-ocr)** <br> <img src="https://img.shields.io/github/stars/seregatipich/one-two-ocr?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) ![PyPI](https://img.shields.io/pypi/v/one-two-ocr?style=flat-square&color=3775a9&logo=pypi&logoColor=white) | PyPI OCR toolkit that extracts text from images and PDFs, with image-enhancement preprocessing built in. |
-| **[area_calculator](https://github.com/seregatipich/area_calculator)** <br> <img src="https://img.shields.io/github/stars/seregatipich/area_calculator?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) | Numerical-methods library: adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends. |
+| **[one-two-ocr](https://github.com/seregatipich/one-two-ocr)** <br> <img src="https://img.shields.io/github/stars/seregatipich/one-two-ocr?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) ![PyPI](https://img.shields.io/pypi/v/one-two-ocr?style=flat-square&color=3775a9&logo=pypi&logoColor=white) | OCR library on PyPI. Extracts text from images and PDFs, with optional image cleanup for low-quality scans. |
+| **[area_calculator](https://github.com/seregatipich/area_calculator)** <br> <img src="https://img.shields.io/github/stars/seregatipich/area_calculator?style=flat-square&color=1f6feb" alt="stars"/> | ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white) | Area of shapes and regions via adaptive integration, Monte Carlo, Green's theorem, and exact symbolic backends. |
 
 ---
 
