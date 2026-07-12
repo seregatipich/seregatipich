@@ -59,11 +59,11 @@ and shipping small libraries that do one thing well.
 
 ### 🚀 What I'm Up To
 
-- 🧮 Built [**MatrixCore**](https://github.com/seregatipich/MatrixCore) — **50 dense linear-system solvers written from scratch in C**, exposed through a typed Cython/NumPy interface with automatic solver recommendation. The math that lives under every ML model, implemented from first principles.
-- 🌐 Built [**http-server-python**](https://github.com/seregatipich/http-server-python) — a threaded HTTP/1.1 server from the socket up: TLS 1.3 termination, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown for zero-downtime deploys.
-- 🔎 Published [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr) on PyPI — a batteries-included OCR library for extracting text from images and PDFs with image-enhancement preprocessing.
-- 📐 Maintaining [**area_calculator**](https://github.com/seregatipich/area_calculator) — a numerical-methods library featuring adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends.
-- 🤝 Open to collaborating on **ML infrastructure, numerical computing, and developer-tooling** projects.
+- 🧮 Created [**MatrixCore**](https://github.com/seregatipich/MatrixCore) — **50 dense linear-system solvers hand-written in C**, wrapped in a typed Cython/NumPy API that picks the right algorithm for you. The linear algebra every ML model quietly relies on, rebuilt from the ground up.
+- 🌐 Wrote [**http-server-python**](https://github.com/seregatipich/http-server-python) — a threaded HTTP/1.1 server built straight on top of sockets, with TLS 1.3 termination, gzip negotiation, token-bucket rate limiting, JWT auth, and graceful shutdown for zero-downtime rollouts.
+- 🔎 Shipped [**one-two-ocr**](https://github.com/seregatipich/one-two-ocr) to PyPI — an easy-to-use OCR toolkit that pulls text out of images and PDFs, with image-enhancement preprocessing built in.
+- 📐 Maintaining [**area_calculator**](https://github.com/seregatipich/area_calculator) — a numerical-methods library covering adaptive integration, Monte Carlo estimation, Green's-theorem areas, and exact symbolic backends.
+- 🤝 Happy to team up on **ML infrastructure, numerical computing, and developer-tooling** projects.
 
 ---
 
