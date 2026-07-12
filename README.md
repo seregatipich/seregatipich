@@ -69,17 +69,14 @@ and shipping small libraries that do one thing well.
 
 ### 📊 My Stats
 
+<p align="center">
+  <img src="https://img.shields.io/github/followers/seregatipich?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=1f6feb" alt="Followers"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Contributions-1.4k%2Fyear-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Contributions per year"/>
+</p>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=seregatipich&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="180em" alt="GitHub Stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=seregatipich&theme=tokyonight&hide_border=true" height="180em" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seregatipich&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=seregatipich&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
